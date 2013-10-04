@@ -10,6 +10,7 @@ public class Kata2 {
         for (int i = 0; i < 100; i++) {
             list.add((int)(Math.random()*80));
         }
+        System.out.println("Primera Lista");
         
         for (Integer value : list) {
             System.out.println(value);
@@ -23,6 +24,7 @@ public class Kata2 {
         }
         list.removeAll (elderPeople);
         
+        System.out.println("Segunda Lista");
         for (Integer value : list) {
             System.out.println(value);
         }
