@@ -15,7 +15,6 @@ public class Kata2 {
             System.out.println(value);
         }
         
-        System.out.println("Fin Lista");
         
         ArrayList<Integer> elderPeople = new ArrayList<>();
         for (Integer value : list) {
